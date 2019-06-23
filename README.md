@@ -8,4 +8,15 @@ Enable web worker-loader for your create-react-app project.
 npm i -D rescript-worker-loader
 ```
 
-Set up rescript [as how its document said](https://github.com/harrysolovay/rescripts#2-define-a-rescripts-field-and-specify-which-to-use), then add `'worker-loader'` to the list.
+Set up rescript [as how its document said](https://github.com/harrysolovay/rescripts#2-define-a-rescripts-field-and-specify-which-to-use), then add `'worker-loader'` to the list, for example:
+
+```json
+  "rescripts": [
+    [
+      "use-babel-config",
+      ".babelrc.js"
+    ],
+    "disable-eslint",
+    "worker-loader"
+  ],
+```
