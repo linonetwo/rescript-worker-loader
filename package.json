@@ -1,6 +1,6 @@
 {
   "name": "rescript-worker-loader",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Enable web worker-loader for your create-react-app project.",
   "source": "src/index.js",
   "module": "dist/rescript-worker-loader.mjs",
