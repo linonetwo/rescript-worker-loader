@@ -1,2 +1,3 @@
 # rescript-worker-loader
-Disable preflight eslint check, so you can just check it in your code editor and CI.
+
+Enable web worker-loader for your create-react-app project.
